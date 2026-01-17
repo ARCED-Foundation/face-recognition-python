@@ -16,11 +16,19 @@ A Python-based face recognition tool that compares faces from a CSV file against
 ```bash
 # Install required packages
 pip install deepface pandas numpy opencv-python tf-keras openpyxl
+```
 
-# Clone or download this repository
-git clone <your-repo-url>
+**Get the script:**
+
+Option 1: Clone the repository
+```bash
+git clone https://github.com/yourusername/face-recognition-python.git
 cd face-recognition-python
 ```
+
+Option 2: Download directly
+- Download `face-recognize.py` from the repository
+- Save it to your preferred directory
 
 ## Quick Start
 
@@ -40,6 +48,11 @@ python3 face-recognize.py -source data.csv -imageDB ./images -output results.xls
 
 ```bash
 python3 face-recognize.py -source data.csv -imageDB ./images -output results.xlsx -excel -recursive
+```
+
+**Note:** If the script is not in your current directory, include the full path:
+```bash
+python3 /path/to/face-recognize.py -source data.csv -imageDB ./images -output results.csv
 ```
 
 ## Input Format
@@ -207,7 +220,7 @@ For issues, questions, or contributions:
 
 **Mehrab Ali**  
 Email: mehrab.ali@arced.foundation  
-Organization: [ARCED Foundation](https://arced.foundation) 
+Organization: [ARCED Foundation](https://arced.foundation)  
 Date: 17 January 2026
 
 © 2026 Mehrab Ali, ARCED Foundation
