@@ -1,0 +1,4 @@
+id,name,image,date,status,total_comparisons,matches_found,best_match,best_match_score,match_1_image,match_1_score,match_2_image,match_2_score,match_3_image,match_3_score,match_4_image,match_4_score,match_5_image,match_5_score
+1,John Doe,einstein.jpeg,2024-01-15,success,23.0,1.0,albert.gif,72.53,albert.gif,72.53,tp-reza-girosi.gif,59.54,trekcolr.gif,56.3,board.gif,55.82,oksana1.gif,55.62
+2,Jane Smith,person2.jpg,2024-01-16,image_not_found,,,N/A,0.0,,,,,,,,,,
+3,Bob Johnson,person3.png,2024-01-17,image_not_found,,,N/A,0.0,,,,,,,,,,
